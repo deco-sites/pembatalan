@@ -16,9 +16,7 @@
     }
   ],
   "routes": [
-    {
-      "__resolveType": "website/loaders/pages.ts"
-    },
+    null,
     {
       "__resolveType": "website/loaders/redirects.ts"
     }
@@ -30,5 +28,14 @@
   "firstByteThresholdMS": true,
   "theme": {
     "__resolveType": "Neutral"
+  },
+  "abTesting": {
+    "replaces": [],
+    "includeScriptsToHead": {
+      "includes": []
+    }
+  },
+  "flavor": {
+    "framework": "fresh"
   }
 }
